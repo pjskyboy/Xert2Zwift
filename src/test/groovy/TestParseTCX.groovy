@@ -12,13 +12,11 @@ fileNameFinder.getFileNames(new File("../resources").getAbsolutePath(), "**/*.tc
     File xertFile = new File(filePath)
     println "Processing [" + xertFile.getAbsolutePath() + "]"
     assert xertFile.exists()
-
-    String xertName = xertFile.getName()
-    String zwoName = xertName.replaceAll("tcx", "zwo")
-
     def trainingCenterDatabase = parser.parse(xertFile)
     NodeList workoutTag = trainingCenterDatabase.Workouts.Workout
-    def xertWorkoutName = workoutTag.Name.text()
+    String workoutName = workoutTag.Name.text()
+    String xertFilename = workoutName + ".tcx"
+    String zwoFilename = workoutName + ".zwo"
 
     def workoutSteps = workoutTag.Step
     def extensionsSteps = workoutTag.Extentions.Steps.Step
@@ -36,8 +34,8 @@ fileNameFinder.getFileNames(new File("../resources").getAbsolutePath(), "**/*.tc
     def xml = new MarkupBuilder(writer)
     xml.workout_file() {
         author('Xert2Zwift')
-        name(xertWorkoutName)
-        description('Conversion from Xert TCX file [' + xertName + "]")
+        name(workoutName)
+        description('Conversion from Xert TCX file [' + xertFilename + "]")
         sportType('bike')
         tags {
             tag(name: 'INTERVALS')
@@ -85,7 +83,7 @@ fileNameFinder.getFileNames(new File("../resources").getAbsolutePath(), "**/*.tc
     }
 
     String zwoXmlString = writer.toString()
-    File zwoFile = new File("../../../build/" + zwoName)
+    File zwoFile = new File("../../../build/" + zwoFilename)
     println "Writing ZWO file [" + zwoFile.getAbsolutePath() + "]"
     if (zwoFile.exists()) {
         zwoFile.delete()

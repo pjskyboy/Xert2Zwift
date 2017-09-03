@@ -1,0 +1,210 @@
+﻿<?xml version="1.0"?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Workouts>
+        <Workout Sport="Biking">
+            <Name>Time-crunched Sweet-Spot Intervals LOW</Name>
+            <Step xsi:type="Step_t">
+                <StepId>1</StepId>
+                <Name>Warmup</Name>
+                <Duration xsi:type="Time_t">
+                    <Seconds>300</Seconds>
+                </Duration>
+                <Intensity>Active</Intensity>
+                <Target xsi:type="None_t"/>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>4</StepId>
+                <Repetitions>2</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>2</StepId>
+                    <Name>Pre Load</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>15</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>3</StepId>
+                    <Name>Pre Load</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>10</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Step_t">
+                <StepId>5</StepId>
+                <Name>Generate Fatig</Name>
+                <Duration xsi:type="Time_t">
+                    <Seconds>32.489132337734</Seconds>
+                </Duration>
+                <Intensity>Active</Intensity>
+                <Target xsi:type="None_t"/>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>8</StepId>
+                <Repetitions>3</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>6</StepId>
+                    <Name>Sweet Spot</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>300</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>7</StepId>
+                    <Name>Sweet Spot</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>31.276707211194</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Step_t">
+                <StepId>9</StepId>
+                <Name>Cooldown</Name>
+                <Duration xsi:type="Time_t">
+                    <Seconds>300</Seconds>
+                </Duration>
+                <Intensity>Active</Intensity>
+                <Target xsi:type="None_t"/>
+            </Step>
+            <Extentions>
+                <Steps xmlns="http://www.garmin.com/xmlschemas/WorkoutExtension/v1">
+                    <Step xsi:type="Step_t">
+                        <StepId>1</StepId>
+                        <Name>Warmup</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>300</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>149</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>154</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>2</StepId>
+                        <Name>Pre Load</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>15</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>448</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>453</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>3</StepId>
+                        <Name>Pre Load</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>10</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>195</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>200</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>5</StepId>
+                        <Name>Generate Fatig</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>32.489132337734</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>507</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>512</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>6</StepId>
+                        <Name>Sweet Spot</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>300</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>257</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>262</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>7</StepId>
+                        <Name>Sweet Spot</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>31.276707211194</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>507</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>512</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>9</StepId>
+                        <Name>Cooldown</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>300</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>149</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>154</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                </Steps>
+            </Extentions>
+        </Workout>
+    </Workouts>
+</TrainingCenterDatabase>
