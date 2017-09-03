@@ -1,0 +1,24 @@
+<workout_file>
+    <author> .MRBaldi Coaching </author>
+    <name>The 300</name>
+    <description></description>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2545" PowerHigh="0.75449997"/>
+
+
+        <SteadyState Duration="300" PowerLow="1.0944999" PowerHigh="1.0944999"/>
+        <SteadyState Duration="120" PowerLow="0.50449997" PowerHigh="0.50449997"/>
+        <SteadyState Duration="300" PowerLow="1.0944999" PowerHigh="1.0944999"/>
+        <SteadyState Duration="120" PowerLow="0.50449997" PowerHigh="0.50449997"/>
+        <SteadyState Duration="300" PowerLow="1.0944999" PowerHigh="1.0944999"/>
+        <SteadyState Duration="120" PowerLow="0.50449997" PowerHigh="0.50449997"/>
+        <SteadyState Duration="300" PowerLow="1.0944999" PowerHigh="1.0944999"/>
+        <SteadyState Duration="120" PowerLow="0.50449997" PowerHigh="0.50449997"/>
+        <SteadyState Duration="300" PowerLow="1.0944999" PowerHigh="1.0944999"/>
+        <Cooldown Duration="600" PowerLow="0.75449997" PowerHigh="0.2545"/>
+    </workout>
+</workout_file>
+

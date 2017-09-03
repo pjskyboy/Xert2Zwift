@@ -1,0 +1,353 @@
+﻿<?xml version="1.0"?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Workouts>
+        <Workout Sport="Biking">
+            <Name>Cheung CX - Ronnestad</Name>
+            <Step xsi:type="Step_t">
+                <StepId>1</StepId>
+                <Name>Warmup 1</Name>
+                <Duration xsi:type="Time_t">
+                    <Seconds>300</Seconds>
+                </Duration>
+                <Intensity>Active</Intensity>
+                <Target xsi:type="None_t"/>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>4</StepId>
+                <Repetitions>3</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>2</StepId>
+                    <Name>Warmup 2</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>3</StepId>
+                    <Name>Warmup 2</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>7</StepId>
+                <Repetitions>13</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>5</StepId>
+                    <Name>Ronnestad</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>30</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>6</StepId>
+                    <Name>Ronnestad</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>15</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Step_t">
+                <StepId>8</StepId>
+                <Name>Warmup 1 (Copy)</Name>
+                <Duration xsi:type="Time_t">
+                    <Seconds>360</Seconds>
+                </Duration>
+                <Intensity>Active</Intensity>
+                <Target xsi:type="None_t"/>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>11</StepId>
+                <Repetitions>13</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>9</StepId>
+                    <Name>Ronnestad (Cop</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>30</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>10</StepId>
+                    <Name>Ronnestad (Cop</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>15</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Step_t">
+                <StepId>12</StepId>
+                <Name>Warmup 1 (Copy</Name>
+                <Duration xsi:type="Time_t">
+                    <Seconds>360</Seconds>
+                </Duration>
+                <Intensity>Active</Intensity>
+                <Target xsi:type="None_t"/>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>15</StepId>
+                <Repetitions>13</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>13</StepId>
+                    <Name>Ronnestad (Cop</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>30</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>14</StepId>
+                    <Name>Ronnestad (Cop</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>15</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Step_t">
+                <StepId>16</StepId>
+                <Name>Warmup 1 (Copy</Name>
+                <Duration xsi:type="Time_t">
+                    <Seconds>360</Seconds>
+                </Duration>
+                <Intensity>Active</Intensity>
+                <Target xsi:type="None_t"/>
+            </Step>
+            <Extentions>
+                <Steps xmlns="http://www.garmin.com/xmlschemas/WorkoutExtension/v1">
+                    <Step xsi:type="Step_t">
+                        <StepId>1</StepId>
+                        <Name>Warmup 1</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>300</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>198</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>203</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>2</StepId>
+                        <Name>Warmup 2</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>317</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>322</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>3</StepId>
+                        <Name>Warmup 2</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>198</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>203</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>5</StepId>
+                        <Name>Ronnestad</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>30</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>402</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>407</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>6</StepId>
+                        <Name>Ronnestad</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>15</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>152</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>157</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>8</StepId>
+                        <Name>Warmup 1 (Copy)</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>360</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>198</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>203</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>9</StepId>
+                        <Name>Ronnestad (Cop</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>30</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>402</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>407</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>10</StepId>
+                        <Name>Ronnestad (Cop</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>15</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>152</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>157</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>12</StepId>
+                        <Name>Warmup 1 (Copy</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>360</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>198</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>203</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>13</StepId>
+                        <Name>Ronnestad (Cop</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>30</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>402</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>407</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>14</StepId>
+                        <Name>Ronnestad (Cop</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>15</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>152</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>157</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>16</StepId>
+                        <Name>Warmup 1 (Copy</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>360</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>198</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>203</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                </Steps>
+            </Extentions>
+        </Workout>
+    </Workouts>
+</TrainingCenterDatabase>

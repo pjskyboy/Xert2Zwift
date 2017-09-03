@@ -1,0 +1,9 @@
+<Step xsi:type="Step_t">
+    <StepId>16</StepId>
+    <Name>Cooldown</Name>
+    <Duration xsi:type="Time_t">
+        <Seconds>600</Seconds>
+    </Duration>
+    <Intensity>Active</Intensity>
+    <Target xsi:type="None_t"/>
+</Step>

@@ -1,0 +1,19 @@
+<Steps xmlns="http://www.garmin.com/xmlschemas/WorkoutExtension/v1">
+    <Step xsi:type="Step_t">
+        <StepId>1</StepId>
+        <Name>First Warmup</Name>
+        <Duration xsi:type="Time_t">
+            <Seconds>60</Seconds>
+        </Duration>
+        <Intensity>Active</Intensity>
+        <Target xsi:type="Power_t">
+            <PowerZone xsi:type="CustomPowerZone_t">
+                <Low xsi:type="PowerInWatts_t">
+                    <Value>158</Value>
+                </Low>
+                <High xsi:type="PowerInWatts_t">
+                    <Value>163</Value>
+                </High>
+            </PowerZone>
+        </Target>
+    </Step>

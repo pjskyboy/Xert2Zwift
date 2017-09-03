@@ -1,0 +1,1285 @@
+﻿<?xml version="1.0"?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Workouts>
+        <Workout Sport="Biking">
+            <Name>SMART - I Won't Back Down</Name>
+            <Step xsi:type="Repeat_t">
+                <StepId>3</StepId>
+                <Repetitions>5</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>1</StepId>
+                    <Name>Warmup</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>90</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>2</StepId>
+                    <Name>Warmup</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>30</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>6</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>4</StepId>
+                    <Name>Step 1</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>5</StepId>
+                    <Name>Step 1</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>9</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>7</StepId>
+                    <Name>Step 2</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>8</StepId>
+                    <Name>Step 2</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>12</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>10</StepId>
+                    <Name>Step 3</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>11</StepId>
+                    <Name>Step 3</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>15</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>13</StepId>
+                    <Name>Step 4</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>14</StepId>
+                    <Name>Step 4</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>18</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>16</StepId>
+                    <Name>Step 5</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>17</StepId>
+                    <Name>Step 5</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>21</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>19</StepId>
+                    <Name>Step 6</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>106.70926517572</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>20</StepId>
+                    <Name>Step 6</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>75.755567551784</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>24</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>22</StepId>
+                    <Name>Step 7</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>37.727422510592</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>23</StepId>
+                    <Name>Step 7</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>110.61281450043</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>27</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>25</StepId>
+                    <Name>Step 8</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>36.457007967167</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>26</StepId>
+                    <Name>Step 8</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>111.24362226209</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>30</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>28</StepId>
+                    <Name>Step 9</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>31.044977529947</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>29</StepId>
+                    <Name>Step 9</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>97.846311997538</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>33</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>31</StepId>
+                    <Name>Step 10</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>30.181938008474</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>32</StepId>
+                    <Name>Step 10</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>91.95878405928</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>36</StepId>
+                <Repetitions>2</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>34</StepId>
+                    <Name>Step 11</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>29.133427421417</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>35</StepId>
+                    <Name>Step 11</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>85.194990489106</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>39</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>37</StepId>
+                    <Name>Step 10</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>30.181938008474</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>38</StepId>
+                    <Name>Step 10</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>91.95878405928</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>42</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>40</StepId>
+                    <Name>Step 9</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>31.044977529947</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>41</StepId>
+                    <Name>Step 9</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>97.846311997538</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>45</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>43</StepId>
+                    <Name>Step 8</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>36.457007967167</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>44</StepId>
+                    <Name>Step 8</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>111.24362226209</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>48</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>46</StepId>
+                    <Name>Step 7</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>37.727422510592</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>47</StepId>
+                    <Name>Step 7</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>110.61281450043</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>51</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>49</StepId>
+                    <Name>Step 6</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>31.254420154535</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>50</StepId>
+                    <Name>Step 6</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>75.755567551784</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Step_t">
+                <StepId>52</StepId>
+                <Name>Step 5</Name>
+                <Duration xsi:type="Time_t">
+                    <Seconds>60</Seconds>
+                </Duration>
+                <Intensity>Active</Intensity>
+                <Target xsi:type="None_t"/>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>55</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>53</StepId>
+                    <Name>Step 4</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>54</StepId>
+                    <Name>Step 4</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>58</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>56</StepId>
+                    <Name>Step 3</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>57</StepId>
+                    <Name>Step 3</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>61</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>59</StepId>
+                    <Name>Step 2</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>60</StepId>
+                    <Name>Step 2</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Repeat_t">
+                <StepId>64</StepId>
+                <Repetitions>1</Repetitions>
+                <Child xsi:type="Step_t">
+                    <StepId>62</StepId>
+                    <Name>Step 1</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Active</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+                <Child xsi:type="Step_t">
+                    <StepId>63</StepId>
+                    <Name>Step 1</Name>
+                    <Duration xsi:type="Time_t">
+                        <Seconds>60</Seconds>
+                    </Duration>
+                    <Intensity>Resting</Intensity>
+                    <Target xsi:type="None_t"/>
+                </Child>
+            </Step>
+            <Step xsi:type="Step_t">
+                <StepId>65</StepId>
+                <Name>Cooldown</Name>
+                <Duration xsi:type="Time_t">
+                    <Seconds>600</Seconds>
+                </Duration>
+                <Intensity>Active</Intensity>
+                <Target xsi:type="None_t"/>
+            </Step>
+            <Extentions>
+                <Steps xmlns="http://www.garmin.com/xmlschemas/WorkoutExtension/v1">
+                    <Step xsi:type="Step_t">
+                        <StepId>1</StepId>
+                        <Name>Warmup</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>90</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>185</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>190</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>2</StepId>
+                        <Name>Warmup</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>30</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>293</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>298</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>4</StepId>
+                        <Name>Step 1</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>183</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>188</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>5</StepId>
+                        <Name>Step 1</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>203</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>208</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>7</StepId>
+                        <Name>Step 2</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>214</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>219</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>8</StepId>
+                        <Name>Step 2</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>232</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>237</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>10</StepId>
+                        <Name>Step 3</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>245</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>250</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>11</StepId>
+                        <Name>Step 3</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>258</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>263</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>13</StepId>
+                        <Name>Step 4</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>277</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>282</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>14</StepId>
+                        <Name>Step 4</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>284</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>289</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>16</StepId>
+                        <Name>Step 5</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>308</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>313</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>17</StepId>
+                        <Name>Step 5</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>258</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>263</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>19</StepId>
+                        <Name>Step 6</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>106.70926517572</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>339</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>344</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>20</StepId>
+                        <Name>Step 6</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>75.755567551784</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>232</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>237</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>22</StepId>
+                        <Name>Step 7</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>37.727422510592</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>371</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>376</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>23</StepId>
+                        <Name>Step 7</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>110.61281450043</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>203</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>208</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>25</StepId>
+                        <Name>Step 8</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>36.457007967167</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>402</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>407</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>26</StepId>
+                        <Name>Step 8</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>111.24362226209</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>174</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>179</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>28</StepId>
+                        <Name>Step 9</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>31.044977529947</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>433</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>438</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>29</StepId>
+                        <Name>Step 9</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>97.846311997538</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>142</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>147</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>31</StepId>
+                        <Name>Step 10</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>30.181938008474</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>465</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>470</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>32</StepId>
+                        <Name>Step 10</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>91.95878405928</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>108</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>113</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>34</StepId>
+                        <Name>Step 11</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>29.133427421417</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>496</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>501</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>35</StepId>
+                        <Name>Step 11</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>85.194990489106</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>73</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>78</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>37</StepId>
+                        <Name>Step 10</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>30.181938008474</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>465</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>470</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>38</StepId>
+                        <Name>Step 10</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>91.95878405928</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>108</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>113</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>40</StepId>
+                        <Name>Step 9</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>31.044977529947</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>433</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>438</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>41</StepId>
+                        <Name>Step 9</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>97.846311997538</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>142</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>147</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>43</StepId>
+                        <Name>Step 8</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>36.457007967167</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>402</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>407</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>44</StepId>
+                        <Name>Step 8</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>111.24362226209</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>174</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>179</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>46</StepId>
+                        <Name>Step 7</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>37.727422510592</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>371</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>376</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>47</StepId>
+                        <Name>Step 7</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>110.61281450043</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>203</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>208</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>49</StepId>
+                        <Name>Step 6</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>31.254420154535</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>339</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>344</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>50</StepId>
+                        <Name>Step 6</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>75.755567551784</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>232</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>237</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>52</StepId>
+                        <Name>Step 5</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>305</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>310</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>53</StepId>
+                        <Name>Step 4</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>277</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>282</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>54</StepId>
+                        <Name>Step 4</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>284</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>289</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>56</StepId>
+                        <Name>Step 3</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>245</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>250</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>57</StepId>
+                        <Name>Step 3</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>258</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>263</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>59</StepId>
+                        <Name>Step 2</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>214</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>219</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>60</StepId>
+                        <Name>Step 2</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>232</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>237</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>62</StepId>
+                        <Name>Step 1</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>183</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>188</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>63</StepId>
+                        <Name>Step 1</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>60</Seconds>
+                        </Duration>
+                        <Intensity>Resting</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>203</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>208</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                    <Step xsi:type="Step_t">
+                        <StepId>65</StepId>
+                        <Name>Cooldown</Name>
+                        <Duration xsi:type="Time_t">
+                            <Seconds>600</Seconds>
+                        </Duration>
+                        <Intensity>Active</Intensity>
+                        <Target xsi:type="Power_t">
+                            <PowerZone xsi:type="CustomPowerZone_t">
+                                <Low xsi:type="PowerInWatts_t">
+                                    <Value>158</Value>
+                                </Low>
+                                <High xsi:type="PowerInWatts_t">
+                                    <Value>163</Value>
+                                </High>
+                            </PowerZone>
+                        </Target>
+                    </Step>
+                </Steps>
+            </Extentions>
+        </Workout>
+    </Workouts>
+</TrainingCenterDatabase>
