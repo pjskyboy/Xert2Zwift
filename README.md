@@ -13,5 +13,5 @@ Run the TestParseTCX.groovy - all files will be processed into the build folder.
 
 Take the required ZWO file(s) and place in your .....
 
-[how to set up custom workouts in Zwift](https://link goes here)
+[how to add custom workouts in Zwift](https://support.zwift.com/hc/en-us/articles/214574383-I-have-a-ZWO-file-What-do-I-do-with-it-)
 
