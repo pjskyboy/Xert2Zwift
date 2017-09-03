@@ -11,7 +11,7 @@ Export a Xert workout from your account in TCX format.
 Put the file in the test/resources/tcx folder
 Run the TestParseTCX.groovy - all files will be processed into the build folder.
 
-Take the required ZWO file(s) and place in your .....
+Use this link to learn how to make the created ZWO files available to your Zwift application:
 
 [how to add custom workouts in Zwift](https://support.zwift.com/hc/en-us/articles/214574383-I-have-a-ZWO-file-What-do-I-do-with-it-)
 
